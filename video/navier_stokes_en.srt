@@ -1,0 +1,379 @@
+1
+00:00:00,000 --> 00:00:01,089
+Stir your coffee.
+
+2
+00:00:01,089 --> 00:00:03,524
+The swirl grows, then it slowly dies.
+
+3
+00:00:03,524 --> 00:00:11,020
+Now a strange question: could a fluid ever spin so hard that its speed becomes infinite, in a finite amount of time?
+
+4
+00:00:11,020 --> 00:00:14,415
+Mathematicians have asked this for almost a century.
+
+5
+00:00:14,415 --> 00:00:16,978
+It is part of a million-dollar problem.
+
+6
+00:00:16,978 --> 00:00:21,655
+In September 2026, OpenAI said its AI had found a way to make it happen.
+
+7
+00:00:21,655 --> 00:00:25,499
+But only if you are allowed to push the fluid from outside.
+
+8
+00:00:25,499 --> 00:00:29,920
+This video explains how it works, and what nobody has confirmed yet.
+
+9
+00:00:30,520 --> 00:00:33,174
+The official problem has four doors.
+
+10
+00:00:33,174 --> 00:00:35,164
+You only need to open one.
+
+11
+00:00:35,164 --> 00:00:39,513
+Doors A and B say: a fluid left alone always stays smooth.
+
+12
+00:00:39,513 --> 00:00:44,451
+Doors C and D say: with some outside push, a fluid can break down.
+
+13
+00:00:44,451 --> 00:00:47,252
+OpenAI claims to have opened C and D.
+
+14
+00:00:47,252 --> 00:00:49,611
+Doors A and B are still closed.
+
+15
+00:00:49,611 --> 00:00:53,960
+So we still do not know if a fluid left alone can do this.
+
+16
+00:00:54,560 --> 00:00:56,107
+Here is the first trick.
+
+17
+00:00:56,107 --> 00:01:00,813
+Draw any flow you like, then ask: what push would make this flow happen?
+
+18
+00:01:00,813 --> 00:01:02,553
+There is always an answer.
+
+19
+00:01:02,553 --> 00:01:05,905
+You just compute what is left over in the equation.
+
+20
+00:01:05,905 --> 00:01:10,482
+That sounds like cheating, and it would be, if the push went wild too.
+
+21
+00:01:10,482 --> 00:01:18,539
+So the real rule is hard: the speed must blow up, but the push must stay perfectly smooth, even at the moment of the blowup.
+
+22
+00:01:18,539 --> 00:01:21,440
+The fluid has to do the explosion by itself.
+
+23
+00:01:22,040 --> 00:01:23,818
+The flow is a tiny whirlpool.
+
+24
+00:01:23,818 --> 00:01:29,335
+Water spirals toward the center, like a skater pulling in their arms and spinning faster.
+
+25
+00:01:29,335 --> 00:01:32,767
+It escapes up and down the middle, so more can come in.
+
+26
+00:01:32,767 --> 00:01:35,894
+Over time, the whirlpool gets thinner and thinner.
+
+27
+00:01:35,894 --> 00:01:39,020
+Its width shrinks a little faster than its height.
+
+28
+00:01:39,020 --> 00:01:41,962
+It becomes a slim needle at one point in space.
+
+29
+00:01:41,962 --> 00:01:43,311
+Here is the surprise.
+
+30
+00:01:43,311 --> 00:01:50,360
+The speed goes to infinity, but the energy inside the needle goes to zero, because the needle is getting so small.
+
+31
+00:01:50,960 --> 00:01:54,272
+The center works fine, and so does the region far away.
+
+32
+00:01:54,272 --> 00:01:58,487
+The trouble is the ring between them, where the two parts are joined.
+
+33
+00:01:58,487 --> 00:02:00,775
+There, the equation does not balance.
+
+34
+00:02:00,775 --> 00:02:04,689
+Something is missing, and the missing piece grows without limit.
+
+35
+00:02:04,689 --> 00:02:09,446
+An outside push cannot fill that gap, because then the push would blow up too.
+
+36
+00:02:09,446 --> 00:02:11,975
+So where can the missing force come from?
+
+37
+00:02:11,975 --> 00:02:13,360
+From the fluid itself.
+
+38
+00:02:13,960 --> 00:02:16,641
+Imagine tiny waves running around that ring.
+
+39
+00:02:16,641 --> 00:02:20,297
+A wave moves back and forth, so on average it goes nowhere.
+
+40
+00:02:20,297 --> 00:02:22,369
+But it can still carry something.
+
+41
+00:02:22,369 --> 00:02:25,842
+When fluid moves outward it carries a little extra spin.
+
+42
+00:02:25,842 --> 00:02:28,706
+When it moves inward it carries a little less.
+
+43
+00:02:28,706 --> 00:02:33,885
+Both motions move spin in the same direction, like a line of people passing buckets.
+
+44
+00:02:33,885 --> 00:02:37,358
+Mathematicians call this kind of effect Reynolds stress.
+
+45
+00:02:37,358 --> 00:02:41,867
+The construction tunes these waves so that what they carry fills the gap.
+
+46
+00:02:41,867 --> 00:02:44,792
+Each wave starts from an incredibly small push.
+
+47
+00:02:44,792 --> 00:02:50,520
+The fluid's own shearing makes it grow, and then viscosity, the fluid's stickiness, kills it.
+
+48
+00:02:51,120 --> 00:02:53,532
+Every fix creates new, smaller errors.
+
+49
+00:02:53,532 --> 00:02:57,468
+So the construction repeats a cycle: fix, measure, fix again.
+
+50
+00:02:57,468 --> 00:03:03,562
+In the paper, each round improves the error by the same fixed amount, and this goes on forever.
+
+51
+00:03:03,562 --> 00:03:08,767
+What remains is a push that stays smooth all the way through the singular moment.
+
+52
+00:03:08,767 --> 00:03:16,195
+And here is a beautiful detail: right at the point of the blowup, the push and all its rates of change fade to zero.
+
+53
+00:03:16,195 --> 00:03:20,892
+At that place and that moment, the fluid is almost completely on its own.
+
+54
+00:03:20,892 --> 00:03:24,320
+The outside push did its work earlier, and elsewhere.
+
+55
+00:03:24,920 --> 00:03:27,444
+We did not review the whole written proof.
+
+56
+00:03:27,444 --> 00:03:29,307
+That is far beyond this video.
+
+57
+00:03:29,307 --> 00:03:34,715
+But we did a simple test on the sizes in the story, using a short program anyone can run.
+
+58
+00:03:34,715 --> 00:03:38,621
+Older theorems say a blowup must make certain measurements grow.
+
+59
+00:03:38,621 --> 00:03:44,149
+So we checked them on the needle, and they do grow, in the way those theorems would expect.
+
+60
+00:03:44,149 --> 00:03:45,772
+This is only a rough test.
+
+61
+00:03:45,772 --> 00:03:47,935
+Passing it does not prove anything.
+
+62
+00:03:47,935 --> 00:03:51,000
+Failing it would have been a serious warning sign.
+
+63
+00:03:51,600 --> 00:03:57,250
+OpenAI also released a proof written for Lean, a program that checks logic step by step.
+
+64
+00:03:57,250 --> 00:04:00,203
+It is huge: over four hundred thousand lines.
+
+65
+00:04:00,203 --> 00:04:02,065
+Does that settle everything?
+
+66
+00:04:02,065 --> 00:04:02,771
+Not quite.
+
+67
+00:04:02,771 --> 00:04:05,082
+There are three separate questions.
+
+68
+00:04:05,082 --> 00:04:08,036
+One: does the code actually pass the checker?
+
+69
+00:04:08,036 --> 00:04:13,686
+We ran it ourselves, on a clean setup, and two different checking programs accepted it.
+
+70
+00:04:13,686 --> 00:04:18,822
+Two: does the code's final statement really say what the official problem says?
+
+71
+00:04:18,822 --> 00:04:22,738
+We read it and we think so, but experts should confirm that.
+
+72
+00:04:22,738 --> 00:04:26,012
+Three: is the written paper correct, line by line?
+
+73
+00:04:26,012 --> 00:04:27,746
+Lean does not answer that.
+
+74
+00:04:27,746 --> 00:04:33,909
+Researchers Bastounis, Circelli and Hansen reported places where the code and the paper differ.
+
+75
+00:04:33,909 --> 00:04:39,880
+We confirmed one of them ourselves: the paper says four derivatives, and the code uses five.
+
+76
+00:04:39,880 --> 00:04:43,026
+That alone does not make the final result false.
+
+77
+00:04:43,026 --> 00:04:47,520
+It does mean the code is not a line-by-line certificate of the paper.
+
+78
+00:04:48,120 --> 00:04:49,724
+So where do things stand?
+
+79
+00:04:49,724 --> 00:04:54,408
+As far as we know, no independent peer review has confirmed this result.
+
+80
+00:04:54,408 --> 00:04:56,974
+MathDB still lists the problem as open.
+
+81
+00:04:56,974 --> 00:05:03,647
+News reports say experts find the proof hard to read, and that OpenAI does not plan to claim the prize.
+
+82
+00:05:03,647 --> 00:05:10,449
+There is also a public dispute about credit, involving other mathematicians working on similar questions.
+
+83
+00:05:10,449 --> 00:05:13,400
+Those accounts conflict, and we take no side.
+
+84
+00:05:14,000 --> 00:05:15,991
+Here is the idea in one breath.
+
+85
+00:05:15,991 --> 00:05:18,367
+A whirlpool collapses into a needle.
+
+86
+00:05:18,367 --> 00:05:23,634
+Tiny waves, powered by the fluid itself, carry force exactly where it is missing.
+
+87
+00:05:23,634 --> 00:05:26,267
+Endless corrections clean up the errors.
+
+88
+00:05:26,267 --> 00:05:29,992
+The speed becomes infinite while the energy stays finite.
+
+89
+00:05:29,992 --> 00:05:35,065
+If this holds up, it shows what a fluid can do with a carefully designed push.
+
+90
+00:05:35,065 --> 00:05:37,506
+But the older question is still open.
+
+91
+00:05:37,506 --> 00:05:41,038
+Can a fluid, left completely alone, do the same thing?
+
+92
+00:05:41,038 --> 00:05:41,937
+Nobody knows.
+
+93
+00:05:41,937 --> 00:05:45,726
+All the mathematics here is the work of the cited authors.
+
+94
+00:05:45,726 --> 00:05:48,745
+This explanation was made with the help of AI.
+
+95
+00:05:48,745 --> 00:05:50,800
+Sources are in the description.

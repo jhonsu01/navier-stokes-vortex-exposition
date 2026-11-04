@@ -1,0 +1,62 @@
+debconf: delaying package configuration, since apt-utils is not installed
+=== 2026-11-04T00:11:36Z identidad
+uid=1000(verifier) gid=1000(verifier) groups=1000(verifier)
+6.6.87.2-microsoft-standard-WSL2
+=== 2026-11-04T00:11:36Z landrun
+go: downloading github.com/landlock-lsm/go-landlock v0.10.1
+go: downloading github.com/urfave/cli/v3 v3.6.2
+go: downloading golang.org/x/sys v0.40.0
+go: downloading kernel.org/pub/linux/libs/security/libcap/psx v1.2.77
+=== 2026-11-04T00:11:47Z prueba_sandbox
+/usr/bin/touch: cannot touch '/vol/probe_escritura': Permission denied
+touch_exit 1
+SANDBOX_OK
+=== 2026-11-04T00:11:47Z nanoda
+   Compiling nanoda_lib v0.4.31 (/vol/nanoda_lib)
+    Finished `release` profile [optimized] target(s) in 11.41s
+/vol/nanoda_lib/target/release/nanoda_bin
+nanoda 8de7e0c4ed3052745a7f8725164efd9e76d84c56
+=== 2026-11-04T00:12:12Z elan
+info: downloading installer
+=== 2026-11-04T00:12:13Z repositorio
+HEAD f9e8bc5b38b6e212696e8a30e3e91517af887bbd
+0cd193b8d5cbd0266e6e2f72e68dd5abcdcf2430ebd435dd9289737e9aa7da61  ComparatorChallenges/NavierStokes.lean
+7610ecead7b390d80ff7f4229a3ff8f18d630e046f7ad1de4f92c7e8e76845b8  ComparatorChallenges/NavierStokes.json
+52950d5d618a8d34c9bfbdb16641c81c276e97b6d7fd2a76c08577353f0b0227  NavierStokes/ComparatorSolution.lean
+=== 2026-11-04T00:12:16Z cache
+Decompressed 8747 file(s)
+Already decompressed 8747 file(s)
+=== 2026-11-04T00:15:04Z herramientas
+✔ [21/22] Built lean4export:exe (852ms)
+✔ [22/22] Built comparator:exe (666ms)
+Build completed successfully (22 jobs).
+/vol/repo/.lake/packages/lean4export/.lake/build/bin/lean4export
+SOLUCION_SIN_COMPILAR_ANTES_DE_COMPARATOR
+=== 2026-11-04T00:15:12Z comparator
+COMPARATOR_EXIT 0
+✔ [9356/9371] Built NavierStokes.ActualEndpointInputs (2.1s)
+✔ [9357/9371] Built NavierStokes.ActualCurrentParticularBounds (3.0s)
+✔ [9358/9371] Built NavierStokes.GermEndpointInputs (2.4s)
+✔ [9359/9371] Built NavierStokes.ActualSignedPhysicalCoherence (5.1s)
+✔ [9360/9371] Built NavierStokes.GluedStageEstimates (2.6s)
+✔ [9361/9371] Built NavierStokes.ActualSignedWaveData (2.3s)
+✔ [9362/9371] Built NavierStokes.ActualCandidateAssembly (3.8s)
+✔ [9363/9371] Built NavierStokes.R3ActualCandidate (2.5s)
+✔ [9364/9371] Built NavierStokes.R3.ActualCandidate (2.7s)
+✔ [9365/9371] Built NavierStokes.R3.Theorem (2.8s)
+✔ [9366/9371] Built NavierStokes.ComparatorR3Theorem (2.8s)
+✔ [9367/9371] Built NavierStokes.PeriodicPaperTheorem (3.1s)
+✔ [9368/9371] Built NavierStokes.PeriodicComparatorSolution (2.5s)
+✔ [9369/9371] Built NavierStokes.PeriodicPaperComparator (2.5s)
+✔ [9370/9371] Built NavierStokes.ComparatorTheorem (2.5s)
+ℹ [9371/9371] Built NavierStokes.ComparatorSolution (2.7s)
+info: NavierStokes/ComparatorSolution.lean:31:0: 'NavierStokes.Comparator.navier_stokes_breakdown_R3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: NavierStokes/ComparatorSolution.lean:32:0: 'NavierStokes.Comparator.navier_stokes_breakdown_periodic' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9371 jobs).
+Exporting #[Nat, String, String.mk, Char, Quot, Quot.mk, Quot.lift, Quot.ind, NavierStokes.Comparator.navier_stokes_breakdown_R3, NavierStokes.Comparator.navier_stokes_breakdown_periodic, propext, Quot.sound, Classical.c
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!
+=== 2026-11-04T00:32:45Z fin
